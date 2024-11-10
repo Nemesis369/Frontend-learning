@@ -1,0 +1,29 @@
+/* .green {
+    color: green;
+    background-color: wheat;
+}
+
+.blue {
+    color: blue;
+} */
+
+h1, p {
+    color: blue;
+    background-color: aqua;
+}
+
+/* Class selector */
+.my-class {
+    color: white;
+    background-color: black;
+}
+/* ID selector */
+#para {
+    background-color: thistle;
+}
+/* this says go to the 'a' tag which has its href
+as "example.com...." and set the style there*/
+a[href="https://www.learnyard.com"] {
+    color: rgb(240, 43, 43);
+    text-decoration: none;
+}
