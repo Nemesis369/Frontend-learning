@@ -7,23 +7,84 @@
     color: blue;
 } */
 
-h1, p {
+/* h1 {
     color: blue;
     background-color: aqua;
 }
 
-/* Class selector */
 .my-class {
     color: white;
     background-color: black;
 }
-/* ID selector */
+
 #para {
     background-color: thistle;
 }
-/* this says go to the 'a' tag which has its href
-as "example.com...." and set the style there*/
+
 a[href="https://www.learnyard.com"] {
     color: rgb(240, 43, 43);
     text-decoration: none;
+}
+a:hover {
+    color: rgb(22, 103, 255);
+}
+
+.lorem::first-line {
+    color: blue;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+::grammar-error {
+    text-decoration: underline red;
+    color: red;
+} 
+*/
+
+/* CSS COMBINATORS */
+
+/* Descendant selector */
+/* div p {
+    color: blue;
+} */
+/* Child selector */
+/* div > p {
+    color: blue;
+} */
+
+/* Adjacent sibling selector */
+/* div + p {
+    color: blue;
+} */
+
+/* General sibiling selector */
+/* div ~ p {
+    color: blue;
+} */
+
+/* Absolute lenghts */
+/* h1 {
+    font-size: 1cm;
+    font-size: 1in;
+    font-size: 1mm;
+    font-size: 50px;
+    font-size: 50pt;
+    font-size: 1pc;
+} */
+
+/* Relative lengths */
+
+div {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 50vw;
+    height: 50vh;
+}
+
+span {
+    font-size: 3rem;
 }
