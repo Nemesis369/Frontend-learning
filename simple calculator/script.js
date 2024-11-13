@@ -1,4 +1,3 @@
-
 let currentNum = '';
 let prevNum = '';
 let operation = '';
