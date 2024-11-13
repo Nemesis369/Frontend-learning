@@ -12,7 +12,7 @@ function calculate() {
     let result;
     const prev = parseFloat(prevNum);
     const current = parseFloat(currentNum);
-    // if(isNaN(prev) || isNaN(current)) return;
+    if(isNaN(prev) || isNaN(current)) return;
 
     switch (operation) {
         case '+':
